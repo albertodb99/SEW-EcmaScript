@@ -60,7 +60,9 @@ button:hover{
 }
 button[class = "operando"]{
     background-color: rgb(189, 62, 62);
+    color: #EEE;
 }
 button[class = "memoria"]{
     background-color: rgb(78, 70, 70);
+    color: #EEE;
 }
