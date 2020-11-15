@@ -1,45 +1,76 @@
 "use strict";
 class Calculadora {
     constructor() {
-        this.display = "";
+        this.pantalla = "";
         this.memoria= "0";
         this.actualizar();
     }
 
-    calculate(){
+    igual(){
         try { 
-            this.display=eval(this.display);
+            this.pantalla=eval(this.pantalla);
             this.actualizar();
         }
         catch(err) {
-            document.getElementById('display').value = "Error = " + err;
+            document.getElementById('pantalla').value = "Error = " + err;
         } 
     }
 
     actualizar() {
-        var pantalla = document.getElementById('display');
-        pantalla.value = this.display;
+        var display = document.getElementById('pantalla');
+        display.value = this.pantalla;
     }
 
-    clear(){
-        this.display = "";
+    borrar(){
+        this.pantalla = "";
         this.actualizar();
     }
 
-    createButton(button){
-        this.display += button;
+    dígitos(dígito){
+        this.pantalla += dígito;
         this.actualizar();
     }
 
-    createMemRC(){
-        this.display=eval(this.memoria);
+    suma(){
+        this.pantalla += '+';
+        this.actualizar();
+    }
+
+    resta(){
+        this.pantalla += '-';
+        this.actualizar();
+    }
+
+    multiplicacion(){
+        this.pantalla += '*';
+        this.actualizar();
+    }
+
+    division(){
+        this.pantalla += '/';
+        this.actualizar();
+    }
+
+    punto(){
+        this.pantalla += '.';
+        this.actualizar();
+    }
+
+    mrc(){
+        this.pantalla=eval(this.memoria);
         this.actualizar();
         this.memoria = "0";
     }
 
-    createMem(operator){
-        this.memoria+=operator;
-        this.memoria+=document.getElementById('display').value;
+    mMenos(){
+        this.memoria+='-';
+        this.memoria+=document.getElementById('pantalla').value;
+        this.actualizar();
+    }
+
+    mMas(){
+        this.memoria+='+';
+        this.memoria+=document.getElementById('pantalla').value;
         this.actualizar();
     }
     

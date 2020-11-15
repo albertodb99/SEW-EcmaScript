@@ -15,40 +15,40 @@
         <h1>
             Cálculadora Básica
         </h1>
-        <div>
-                <label for = "display">
+        <div lang = 'es'>
+                <label for = "pantalla">
                     Calculadora Basica
                 </label>
 
                 <!-- la entrada -->
-                <input type="text" id="display" value="0" disabled/>
+                <input type="text" id="pantalla" value="0" disabled/>
           
             <!-- los botones -->
             <div>
-              <button onclick="calculadora.createMemRC()" class = "memoria">mrc</button>
-              <button onclick="calculadora.createMem('+')" class = "memoria">m+</button>
-              <button onclick="calculadora.createMem('-')" class = "memoria">m-</button>
-              <button onclick="calculadora.createButton('/')" class = "operando">/</button>
+              <button onclick="calculadora.mrc()" class = "memoria">mrc</button>
+              <button onclick="calculadora.mMas()" class = "memoria">m+</button>
+              <button onclick="calculadora.mMenos()" class = "memoria">m-</button>
+              <button onclick="calculadora.division()" class = "operando">/</button>
 
-              <button onclick="calculadora.createButton('7')">7</button>
-              <button onclick="calculadora.createButton('8')">8</button>
-              <button onclick="calculadora.createButton('9')">9</button>
-              <button onclick="calculadora.createButton('*')" class = "operando">*</button>
+              <button onclick="calculadora.digitos('7')">7</button>
+              <button onclick="calculadora.digitos('8')">8</button>
+              <button onclick="calculadora.digitos('9')">9</button>
+              <button onclick="calculadora.multiplicacion()" class = "operando">*</button>
           
-              <button onclick="calculadora.createButton('4')">4 </button>
-              <button onclick="calculadora.createButton('5')">5</button>
-              <button onclick="calculadora.createButton('6')">6</button>
-              <button onclick="calculadora.createButton('-')" class = "operando">-</button>
+              <button onclick="calculadora.digitos('4')">4 </button>
+              <button onclick="calculadora.digitos('5')">5</button>
+              <button onclick="calculadora.digitos('6')">6</button>
+              <button onclick="calculadora.resta()" class = "operando">-</button>
           
-              <button onclick="calculadora.createButton('1')">1</button>
-              <button onclick="calculadora.createButton('2')">2</button>
-              <button onclick="calculadora.createButton('3')">3</button>
-              <button onclick="calculadora.createButton('+')" class = "operando">+</button>
+              <button onclick="calculadora.digitos('1')">1</button>
+              <button onclick="calculadora.digitos('2')">2</button>
+              <button onclick="calculadora.digitos('3')">3</button>
+              <button onclick="calculadora.suma()" class = "operando">+</button>
 
-              <button onclick="calculadora.createButton('0')">0</button>
-              <button onclick="calculadora.createButton('.')">.</button>              
-              <button onclick="calculadora.clear()">C</button>
-              <button onclick="calculadora.calculate()">=</button>
+              <button onclick="calculadora.digitos('0')">0</button>
+              <button onclick="calculadora.punto()">.</button>              
+              <button onclick="calculadora.borrar()">C</button>
+              <button onclick="calculadora.igual()">=</button>
             </div>       
           </div>
         <footer>
