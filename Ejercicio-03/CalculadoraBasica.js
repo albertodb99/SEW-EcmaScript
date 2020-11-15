@@ -26,7 +26,7 @@ class Calculadora {
         this.actualizar();
     }
 
-    digitos(dígito){
+    dígitos(dígito){
         this.pantalla += dígito;
         this.actualizar();
     }
