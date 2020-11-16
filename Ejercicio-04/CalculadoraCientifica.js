@@ -259,7 +259,9 @@ class CalculadoraCientifica extends Calculadora{
     }
 
     borrarUltimoNumero(){
-
+        while (this.pantalla.match(/[0-9]$/)) {
+            this.borrarUltimoCaracter();
+        }        
     }
 
     doNothing(){}
