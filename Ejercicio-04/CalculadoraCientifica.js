@@ -261,6 +261,8 @@ class CalculadoraCientifica extends Calculadora{
     borrarUltimoNumero(){
 
     }
+
+    doNothing(){}
 }
 
 var calculadora = new CalculadoraCientifica();
