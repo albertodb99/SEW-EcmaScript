@@ -66,6 +66,11 @@ button[class = "memoria"]{
     background-color: rgb(78, 70, 70);
     color: #EEE;
 }
+button[class = "vacio"]{
+    background-color: rgb(78, 70, 70);
+    color: #EEE;
+    font-size: 0px;
+}
 label{
     display:none;
 }
