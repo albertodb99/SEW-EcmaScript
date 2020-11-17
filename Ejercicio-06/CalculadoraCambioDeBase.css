@@ -49,15 +49,6 @@ z-index: 100;
 }
 
 
-/*Especificidad 002*/
-footer img{
-  margin-top: 40px;
-  display: grid;
-  float: left;
-  height: 4%;
-  width: 4%;
-}
-
 div[class = "bases"]{
   padding: 10px;
   display: grid;
