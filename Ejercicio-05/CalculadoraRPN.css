@@ -68,11 +68,14 @@ button[class = "memoria"]{
 }
 button[class = "vacio"]{
     background-color: rgb(189, 179, 179);
-    color: #EEE;
+    color: rgb(54, 51, 51);
     font-size: 0px;
 }
 textarea{
     width: 95%;
     height: 200px;
     resize: none;
+}
+label[class = "pila"]{
+    display:none;
 }
