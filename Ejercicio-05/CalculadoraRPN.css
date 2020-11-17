@@ -67,7 +67,12 @@ button[class = "memoria"]{
     color: #EEE;
 }
 button[class = "vacio"]{
-    background-color: rgb(78, 70, 70);
+    background-color: rgb(189, 179, 179);
     color: #EEE;
     font-size: 0px;
+}
+textarea{
+    width: 95%;
+    height: 200px;
+    resize: none;
 }

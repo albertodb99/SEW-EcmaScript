@@ -22,7 +22,7 @@
             </p>
         </article>
         <div lang = "es">
-            <textarea disabled>
+            <textarea id = "mostrarPila" disabled>
 
             </textarea>
 
@@ -33,53 +33,48 @@
             <input type="text" id="pantalla" value="0" name = "pantalla" lang = "es" disabled />
       
         <div lang = "es">
-            <button onclick="calculadora.doNothing()" class="vacio">vacio</button>
-            <button onclick="calculadora.doNothing()" class="vacio">vacio</button>
-            <button onclick="calculadora.mrc()" class = "memoria">mrc</button>
-            <button onclick="calculadora.mMas()" class = "memoria">m+</button>
-            <button onclick="calculadora.mMenos()" class = "memoria">m-</button>
 
-            <button onclick="calculadora.elevarAlCuadrado()" class = "operando">x^2</button>
-            <button onclick="calculadora.dígitos('**')" class = "operando">x^y</button>
-            <button onclick="calculadora.calculateSeno()" class = "operando">sin</button>
-            <button onclick="calculadora.calculateCoseno()" class = "operando">cos</button>
-            <button onclick="calculadora.calculateTangente()" class = "operando">tan</button>
+            <button onclick="calculadora.realizarOperacion('cuadrado')" class = "operando">x^2</button>
+            <button onclick="calculadora.realizarOperacion('elevarXaY')" class = "operando">x^y</button>
+            <button onclick="calculadora.realizarOperacion('sin')" class = "operando">sin</button>
+            <button onclick="calculadora.realizarOperacion('cos')" class = "operando">cos</button>
+            <button onclick="calculadora.realizarOperacion('tan')" class = "operando">tan</button>
 
-            <button onclick="calculadora.raizCuadrada()" class = "operando">√</button>
-            <button onclick="calculadora.diezElevadoA()" class = "operando">10^X</button>
-            <button onclick="calculadora.logaritmo()" class = "operando">log</button>
-            <button onclick="calculadora.exponencial()" class = "operando">Exp</button>
-            <button onclick="calculadora.dígitos('%')" class = "operando">Mod</button>
+            <button onclick="calculadora.realizarOperacion('sqrt')" class = "operando">√</button>
+            <button onclick="calculadora.realizarOperacion('elevarA10')" class = "operando">10^X</button>
+            <button onclick="calculadora.realizarOperacion('log10')" class = "operando">log10</button>
+            <button onclick="calculadora.realizarOperacion('log2')" class = "operando">log2</button>
+            <button onclick="calculadora.realizarOperacion('exp')" class = "operando">Exp</button>
 
-            <button onclick="calculadora.changeShift()" class = "operando">↑</button>
+            <button onclick="calculadora.borrar()" class = "operando">CP</button>
             <button onclick="calculadora.borrarUltimoNumero()" class = "operando">CE</button>
-            <button onclick="calculadora.borrar()" class = "operando">C</button>
+            <button onclick="calculadora.reiniciarPila()" class = "operando">C</button>
             <button onclick="calculadora.borrarUltimoCaracter()" class = "operando">←</button>
-            <button onclick="calculadora.division()" class = "operando">/</button>
+            <button onclick="calculadora.realizarOperacion('/')" class = "operando">/</button>
 
             <button onclick="calculadora.dígitos(Math.PI)" class = "operando">兀</button>
             <button onclick="calculadora.dígitos('7')">7</button>
             <button onclick="calculadora.dígitos('8')">8</button>
             <button onclick="calculadora.dígitos('9')">9</button>
-            <button onclick="calculadora.multiplicacion()" class = "operando">*</button>
+            <button onclick="calculadora.realizarOperacion('*')" class = "operando">*</button>
         
-            <button onclick="calculadora.factorial()" class = "operando">n!</button>
+            <button onclick="calculadora.realizarOperacion('factorial')" class = "operando">n!</button>
             <button onclick="calculadora.dígitos('4')">4 </button>
             <button onclick="calculadora.dígitos('5')">5</button>
             <button onclick="calculadora.dígitos('6')">6</button>
-            <button onclick="calculadora.resta()" class = "operando">-</button>
+            <button onclick="calculadora.realizarOperacion('-')" class = "operando">-</button>
         
-            <button onclick="calculadora.cambiarSigno()" class = "operando">±</button>
+            <button onclick="calculadora.realizarOperacion('cambioSigno')" class = "operando">±</button>
             <button onclick="calculadora.dígitos('1')">1</button>
             <button onclick="calculadora.dígitos('2')">2</button>
             <button onclick="calculadora.dígitos('3')">3</button>
-            <button onclick="calculadora.suma()" class = "operando">+</button>
+            <button onclick="calculadora.realizarOperacion('+')" class = "operando">+</button>
 
-            <button onclick="calculadora.dígitos('(')" class = "operando">(</button>
-            <button onclick="calculadora.dígitos(')')" class = "operando">)</button>
+            <button onclick="calculadora.doNothing()" class="vacio">vacio</button>
+            <button onclick="calculadora.doNothing()" class="vacio">vacio</button>
             <button onclick="calculadora.dígitos('0')">0</button>
-            <button onclick="calculadora.punto()">.</button>              
-            <button onclick="calculadora.igual()" class = "operando">=</button>
+            <button onclick="calculadora.dígitos('.')">.</button>              
+            <button onclick="calculadora.añadirAPila()" class = "operando">Enter</button>
         </div>       
       </div>
         <footer lang = "es">
