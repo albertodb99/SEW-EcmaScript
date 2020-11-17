@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Alberto Díez Bajo" />
+    <meta name="copyright" content="Alberto Díez Bajo"/>
+    <meta name="description" content="En esta página podéis encontrar una calculadora de cambio de base!"/>
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Calculadora de Cambio de Base.</title>
+
+    <link rel="stylesheet" type="text/css" href="CalculadoraCambioDeBase.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Calculadora de Cambio de Base</h1>
+    </header>
+    <article>
+        <h2>Cambia el número que desees de base!</h2>
+            <p>
+                Aquí podéis encontrar la herramienta de calculadora de cambio de base, desarrollada por el alumno
+                Alberto Díez Bajo, para el ejercicio 6 de la práctica de ECMAScript, desarrollada con ECMAScript puro.
+            </p>
+            <div>
+                <div class = "bases">
+                    <label for = "base10" class = "base10" lang = "es">
+                        Introduce el número que desees convertir en base 10:
+                     </label>
+                    <input type="text" id="base10" value="0" name = "base10" lang = "es" oninput="calculadora.calculateBases()"/>
+                    <label for = "base2" class = "base2" lang = "es">
+                        Base 2:
+                     </label>
+                    <input type="text" id="base2" value="0" name = "base2" lang = "es" disabled/>
+                    <label for = "base4" class = "base4" lang = "es">
+                        Base 4:
+                     </label>
+                    <input type="text" id="base4" value="0" name = "base4" lang = "es" disabled/>
+                    <label for = "base8" class = "base8" lang = "es">
+                        Base 8:
+                     </label>
+                    <input type="text" id="base8" value="0" name = "base8" lang = "es" disabled/>
+                    <label for = "base16" class = "base16" lang = "es">
+                        Base 16:
+                     </label>
+                    <input type="text" id="base16" value="0" name = "base16" lang = "es" disabled/>
+                </div>
+            </div>
+    </article>
+    <footer lang = "es">
+        <a href="http://validator.w3.org/check/referer">
+            <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+    </footer>
+    <script src="CalculadoraCambioDeBases.js"></script>
+</body>
+</html>
