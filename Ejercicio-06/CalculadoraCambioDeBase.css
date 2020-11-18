@@ -48,7 +48,6 @@ position: fixed;
 z-index: 100;
 }
 
-
 div[class = "bases"]{
   padding: 10px;
   display: grid;
