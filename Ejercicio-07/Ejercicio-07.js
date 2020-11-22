@@ -54,7 +54,7 @@ class ManejoHTML {
     }
 
     mostrarRecorrido() {
-        var text = "<article><h4>Recorrido del documento</h4><p>";
+        var text = "<article><h2>Recorrido del documento</h2><p>";
         $(document).ready(function () {
 
             $("*", document.html).each(function () {
