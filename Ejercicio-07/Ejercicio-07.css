@@ -44,7 +44,35 @@ h4{
 padding: 0;
 margin: 0;
 }
-
+div[class = "tabla"]{
+  overflow-x: scroll;
+}
+/* Especificidad 001 */
+table {
+  width: 100%;
+  border: 1px solid #000;
+}
+/* Especificidad 000 */
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3px;
+  caption-side: bottom;
+}
+/* Especificidad 001 */
+caption {
+  padding: 0.3px;
+  color: rgb(0, 0, 0);
+   background: #000;
+}
+/* Especificidad 001 */
+th {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
 /*Especificidad 001*/
 article {
 width: 80%;
@@ -64,13 +92,6 @@ background: rgba(0,0,0,0.9);
 width: 100%;
 position: fixed;
 z-index: 100;
-}
-
-div[class = "video-container"]{
-  padding-top: 10%;
-  padding-bottom: 10%;
-  display:block;
-  text-align: center;
 }
 
 /*Especificidad 002*/
@@ -127,6 +148,9 @@ div img {
     width: 100%;
     max-height: 75vh;
     min-width: 0;
+  }
+  label{
+    display:none;
   }
 }
 

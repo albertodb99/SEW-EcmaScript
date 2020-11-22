@@ -18,14 +18,20 @@
         <h1>Blade Runner</h1>
     </header>
     <article>
-            <h2>Galería</h2>
+            <h2 id = "h2cambiar">Galería</h2>
             <h3>Descubre nuestra galería!</h3>
             <h4>Estas son nuestras imágenes</h4>
             <div class = "contenedor-botones">
                 <button onclick="manejador.ocultarLista()">Ocultar Lista</button>
                 <button onclick="manejador.mostrarLista()">Mostrar Lista</button>
                 <button onclick="manejador.eliminarEncabezadosInnecesarios()">Eliminar Encabezados Innecesarios</button>
-                <button onclick="manejador.añadirVideo()">Añadir trailer de la película</button>
+                <button onclick="manejador.añadirEnlacesDeInteres()">Añadir enlaces de interés</button>
+                <label for = "cambiaH2">
+                    Modifica el H2
+                </label>
+                <input type = "text" id = "cambiaH2"/>
+                <button onclick="manejador.cambiaEncabezado2()">Modificar</button>
+                <button onclick="manejador.sumarFilasYColumnas()">Sumar Filas y Columnas</button>
             </div>
             <p>
                 En esta pestaña, podéis encontrar algunos cómics que se desarrollaron en base a la película.
@@ -59,12 +65,57 @@
                 </ul>
             </div>
     </article>
-	<footer>
-        <a href="https://validator.w3.org/check?uri=https://uo266536.github.io/SEW/galeria.html">
-            <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" /></a>
-        <a href=" http://jigsaw.w3.org/css-validator/validator?uri=https://uo266536.github.io/SEW/albumfotos.css ">
-            <img src="multimedia/CSS3.png"
-            alt="CSS Válido!"/></a>
+    <article>
+        <h2>Juegos</h2>
+        <div class = "tabla">
+            <table id = "tabla">
+                <thead>
+                    <tr>
+                        <th><strong>Año</strong></th>
+                        <th><strong>Titulo</strong></th>
+                        <th><strong>Género</strong></th>
+                        <th><strong>Desarrollador(es)</strong></th>
+                        <th><strong>Plataforma(s)</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1985</td>
+                        <td>Blade Runner</td>
+                        <td>Shoot 'em up</td>
+                        <td>Andy Stodart, Ian Foster e Ian Ellery</td>
+                        <td>Commodore 64, ZX Spectrum y Amstrad CPC198​</td>
+                    </tr>
+                    <tr>
+                        <td>1997</td>
+                        <td>Blade Runner</td>
+                        <td>Aventura Gráfica</td>
+                        <td>Westwood Studios</td>
+                        <td>Microsoft Windows 1999</td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Blade Runner 9732 (no oficial)</td>
+                        <td>Realidad virtual</td>
+                        <td>Quentin Lengele</td>
+                        <td>HTC Vive​</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Blade Runner: Revelations</td>
+                        <td>Realidad virtual</td>
+                        <td>Seismic Games y Alcon Media Group</td>
+                        <td>Google Daydream​</td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+    </article>
+	<footer lang = "es">
+        <a href="http://validator.w3.org/check/referer">
+            <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Ejercicio-07.js"></script>
