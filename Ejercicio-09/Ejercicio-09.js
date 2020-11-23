@@ -61,7 +61,7 @@ class Meteo {
                     var fechaMedidaLocal      = (new Date(horaMedidaMiliSeg1970)).toLocaleDateString("es-ES");
                     
                     var stringDatos =  "<article><h2>Ciudad: " + ciudad + "</h2>";
-                        stringDatos += "<img src=\"http://openweathermap.org/img/wn/" + icono + "@2x.png\" alt = \"Icono del tiempo\" />";
+                        stringDatos += "<img src=\"http://openweathermap.org/img/wn/" + icono + "@2x.png\" alt = \"Icono del tiempo en " + ciudad + "\" />";
                         stringDatos += "<ul><li>Número de elementos del XML: " + totalNodos + "</li>";
                         stringDatos += "<li>Longitud: " + longitud + " grados</li>";
                         stringDatos += "<li>Latitud: " + latitud + " grados</li>";

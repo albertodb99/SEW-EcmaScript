@@ -18,9 +18,8 @@ class Meteo {
                 
                     //PresentaciÃ³n de los datos contenidos en JSON
                     
-                    var stringDatos =  "<article><h2>Ciudad: " + datos.name + "</h2><p>";
-                        stringDatos += "<img src=\"http://openweathermap.org/img/wn/" + datos.weather[0].icon + "@2x.png\" alt = \"Icono del tiempo\" />";
-                        stringDatos += "</p>";
+                    var stringDatos =  "<article><h2>Ciudad: " + datos.name + "</h2>";
+                        stringDatos += "<img src=\"http://openweathermap.org/img/wn/" + datos.weather[0].icon + "@2x.png\" alt = \"Icono del tiempo en " + datos.name + "\" />";
                         stringDatos += "<ul>";
                         stringDatos += "<li>País: " + datos.sys.country + "</li>";
                         stringDatos += "<li>Latitud: " + datos.coord.lat + " grados</li>";
