@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas>
+
+<rutas>
+    <ruta nombre = "Playa de la Ñora al Parque de la Providencia" 
+          tipo = "Paisajística" dificultad="Fácil" duracion="2 horas"
+          recomendacion="9" aptitud = "Media">
+          <agencia>
+                Sin Agencia
+          </agencia>
+          <descripcion>
+                La senda comienza en la playa de La Ñora (Gijón), con una escalinata que asciende entre 
+                eucaliptos hasta alcanzar un mirador. Aquí se puede tomar aliento mientras se disfruta de 
+                una espléndida vista panorámica del mar Cantábrico y de la playa.
+
+                Se continúa subiendo, ya con una pendiente menor, para dejar atrás el eucaliptal y alcanzar 
+                la rasa costera, en donde se ha dispuesto un área de descanso con increíbles vistas.
+
+                Se prosigue bajando hasta las proximidades de la playa de Estaño con unas panorámicas 
+                que se abren hasta La Providencia. Tras cruzar el arroyo que discurre hasta la 
+                playa, se asciende hasta alcanzar de nuevo la cota de la rasa costera.
+
+                Se sigue avanzando por un tramo de baja dificultad desde el que disfruta 
+                de la maravillosa vista de los acantilados y de las playas de La Cagonera y 
+                Serín, sobre las que es frecuente ver volar a aficionados al parapente, que se dan cita en este lugar.
+
+                Se pasa luego por la Colina del Cuervo, ya cerca del Parque de la Providencia, desde donde se divisa 
+                la ciudad de Gijón. Rodeando la playa de Peñarrubia, se encuentra una fuente que invita a una parada 
+                para descansar y beber.
+          </descripcion>
+          <lugarinicio>
+                <ciudad>
+                    Gijón
+                </ciudad>
+                <direccion>
+                    Playa de la Ñora
+                </direccion>
+                <coordenadas>
+                    <latitud>
+                        43.54710087
+                    </latitud>
+                    <longitud>
+                        -5.59093644
+                    </longitud>
+                    <altura>
+                        50
+                    </altura>
+                </coordenadas>
+          </lugarinicio>
+          <referencias>
+                <referencia enlace = "https://guiadeasturias.com/lugar/la-nora-gijon-senda-baja-dificultad-transcurre-concejo-gijon/">
+                    Fuente: Turismo de Asturias.
+                </referencia>
+                <referencia enlace = "https://www.turismoasturias.es/descubre/costa/playas/playa-de-la-nora">
+                    Playa de la Ñora
+                </referencia>
+                <referencia  enlace ="https://www.20minutos.es/noticia/403609/0/rincon/gijon/providencia/" >
+                    Mirador de la Providencia 
+                </referencia>
+          </referencias>
+          <hitos>
+                <hito nombre = "Los Yacimientos Icnitas de Asturias"
+                    distanciaUltimoHito="1,5km">
+                    <descripcion>
+                        Los yacimientos de icnitas de dinosaurios de Asturias reúnen una serie de vestigios fosilizados
+                        de una actividad vital que tuvo su desarrollo en el período Jurásico, hace más de 150 millones 
+                        de años, y presentan un conjunto de características que hacen de ellos un ejemplo único a la hora 
+                        de reconstruir lo que fue la vida de una comunidad de criaturas sorprendentes que poblaron, en esa 
+                        edad geológica, las tierras de Asturias. Este yacimiento se extiende a lo largo de 44,2 km  de la 
+                        costa de los concejos de Gijón, Villaviciosa, Colunga y Ribadesella. Más concretamente, diversos 
+                        tramos de costa entre el Cabo Torres (Gijón) y Ribadesella.
+                    </descripcion>
+                    <coordenadas>
+                        <latitud>
+                            43.54789222
+                        </latitud>
+                        <longitud>
+                            -5.60209203
+                        </longitud>
+                        <altura>
+                            0
+                        </altura>
+                    </coordenadas>
+                    <fotos>
+                        <foto enlace="https://www.siempredepaso.es/wp-content/uploads/2012/09/RA7338.jpg">
+                                Imagen del yacimiento</foto>
+                        <foto enlace="https://www.turismoasturias.es/documents/11022/42149/MonumentoYacimientoIcnitas1.jpg?t=1389220427204">
+                                Otra imagen del yacimiento, en la que podemos apreciar mejor las huellas</foto>
+                        <foto enlace="https://www.turismoasturias.es/documents/11022/42149/MonumentoYacimientoIcnitas3.jpg?t=1389220439833">
+                                Imagen de simulacion de pisadas de dinosaurios</foto>
+                    </fotos>
+                </hito>
+                <hito nombre = "Playas de Serín y la Cagonera"
+                    distanciaUltimoHito="3km">
+                    <descripcion>
+                        La playa de Serín, junto a su vecina al oeste, la playa de la Cagonera, son dos 
+                        ensenadas pequeñas y aisladas a tan sólo cinco kilómetros de Gijón. Con difícil 
+                        acceso, Serín es frecuentada por nudistas. Tiene un arenal escaso y su baño ha de 
+                        ser con precaución, debido a su fondo rocoso.
+
+                        Por su parte Cagonera, es un pequeño arenal que en su día se utilizaba como refugio de 
+                        barcas y pescadores. El baño no es aconsejable y para la práctica de deportes 
+                        náuticos (como la pesca submarina o el buceo) se recomienda acceder a ella mediante embarcación.
+                    </descripcion>
+                    <coordenadas>
+                        <latitud>
+                            43.55053509
+                        </latitud>
+                        <longitud>
+                            -5.61061159
+                        </longitud>
+                        <altura>
+                            3
+                        </altura>
+                    </coordenadas>
+                    <fotos>
+                        <foto enlace="https://static.burgosconecta.es/comun/movil2016/imagenes_playas/0002424.jpg">
+                                Vista desde arriba de la playa de la Cagonera</foto>
+                        <foto enlace="https://www.turismoasturias.es/documents/11022/14433/Ser%C3%ADn+%283%29.jpg/2c15d567-cfa4-44d9-b9d4-8621c56972b7?t=1565700011136">
+                                Otra vista panorámica desde otro ángulo, de la playa de la Cagonera</foto>
+                        <foto enlace="https://www.turismoasturias.es/documents/11022/14433/Ser%C3%ADn+%281%29.jpg/1d60d27f-26b0-4be0-a94d-28de5914d93b?t=1565700010355">
+                                Playa de Serin, vista desde la arena</foto>
+                    </fotos>
+                </hito>
+                <hito nombre = "Monumento a Galileo Galilei"
+                    distanciaUltimoHito="2,3km">
+                    <descripcion>
+                        Galileo Galilei buscaría signos del cielo en la superficie rugosa 
+                        del Homenaje. El conjunto escultórico, de unos tres metros de altura, 
+                        está formado por dos estructuras geométricas semicirculares, realizadas 
+                        en acero cortén y colocadas de forma oblicua. Cada una de esas dos 
+                        estructuras está compuesta a su vez por planchas unidas mediante soldadura, 
+                        que se curvan y arquean, y dibujan rutas concéntricas en este mapa que define
+                        mil planetas del cosmos de los sueños.
+                    </descripcion>
+                    <coordenadas>
+                        <latitud>
+                            43.5567247
+                        </latitud>
+                        <longitud>
+                            -5.6194746
+                        </longitud>
+                        <altura>
+                            40
+                        </altura>
+                    </coordenadas>
+                    <fotos>
+                        <foto enlace="https://singleven.files.wordpress.com/2014/05/galileo.jpg">
+                                Vista del monumento desde atrás</foto>
+                        <foto enlace="https://i.pinimg.com/originals/4f/c0/7f/4fc07fe48665a39f9916e7d3e1286afc.jpg">
+                                Otra imágen del monumento</foto>
+                        <foto enlace="https://live.staticflickr.com/3034/2907175111_4a7d274227_b.jpg">
+                                Podemos apreciar la belleza de este homenaje</foto>
+                    </fotos>
+                </hito>
+                <hito nombre = "Mirador de la Providencia"
+                    distanciaUltimoHito="0,1km">
+                    <descripcion>
+                        Está a sólo media hora caminando desde Paseo de El Muro, pero muchos 
+                        gijoneses ni siquiera conocen este lugar, que proporciona una de las 
+                        vistas más fotogénicas y desconocidas de la ciudad.
+
+                        Más allá de la playa de Peñarubia -al este del concejo- y en 
+                        una pequeña colina está el mirador de La Providencia, una curiosa 
+                        construcción con forma de punta de lanza en dirección al mar. 
+                        En coche se puede llegar a ella desde la carretera GI-2, que sale 
+                        desde el paseo del Muro, no tiene pérdida.
+
+                        El mar Cantábrico, la zona rural y urbana de Gijón... es mucho 
+                        lo que se ve desde el mirador. Eso sí, merece la pena detener la vista 
+                        en una pequeña península, situada a apenas cien metros: la isla de la tortuga.
+                    </descripcion>
+                    <coordenadas>
+                        <latitud>
+                            43.5539325
+                        </latitud>
+                        <longitud>
+                            -5.618994
+                        </longitud>
+                        <altura>
+                            86
+                        </altura>
+                    </coordenadas>
+                    <fotos>
+                        <foto enlace="https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2009/07/01/854335a.jpg">
+                                Vista de la parte alta mirador</foto>
+                        <foto enlace="https://media-cdn.tripadvisor.com/media/photo-s/10/d3/ce/16/mirador-parque-de-la.jpg">
+                                Otro ángulo de la vista del mirador</foto>
+                        <foto enlace="https://media-cdn.tripadvisor.com/media/photo-s/0c/76/f5/9b/img-20150629-182717-largejpg.jpg">
+                                Vista trasera del mirador</foto>
+
+                    </fotos>
+                </hito>
+          </hitos>
+    </ruta>
+</rutas>
