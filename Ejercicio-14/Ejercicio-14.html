@@ -21,7 +21,12 @@
         <h2>
             Aquí podrás modificar tus imágenes
         </h2>
-        <p><input id="subirArchivos" type="file" name="Archivos" onchange="loader.cargarArchivo();"></p>
+        <p>
+            <label for = "subirArchivos">
+                Selecciona los archivos que quieres subir:
+             </label>
+            <input id="subirArchivos" type="file" name="Archivos" onchange="loader.cargarArchivo();">
+        </p>
         <p><button onclick="loader.pantallaCompleta()">Ver el lienzo a pantalla completa</button></p>
         <p><button onclick="loader.añadirCorazon()">Añade un corazón al lienzo</button></p>
         <p><button onclick="loader.añadirEstrella()">Añade una estrella al lienzo</button></p>
