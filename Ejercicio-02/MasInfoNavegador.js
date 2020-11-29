@@ -22,3 +22,4 @@ document.write("</p>");
 document.write("<p>Java Activo?: ");
 document.write(navegador.javaActivo);
 document.write("</p>");
+document.write("</article>");
