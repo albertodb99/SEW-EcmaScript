@@ -20,7 +20,7 @@ class CargaFicheros {
         $("footer").before(content);
         var fr = new FileReader();
         fr.onload=function(event){ 
-            document.getElementById(fichero.name).innerHTML += fr.result;
+            document.getElementById(fichero.name).innerHTML += "<code>" + fr.result + "</code>";
         } 
         fr.readAsText(fichero);
       }
