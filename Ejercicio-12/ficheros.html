@@ -22,7 +22,13 @@
             Aquí podras descubrir datos que no te imaginabas de tus archivos!
         </h2>
         <p>API File: Selecionar varios archivos de la máquina cliente</p>
-        <p><input id="subirArchivos" type="file" name="Archivos" onchange="cargador.leerArchivos();" multiple=""></p>
+        <p>
+            <label for="subirArchivos">
+                Selecciona los archivos que quieres subir:
+             </label>
+            
+            <input id="subirArchivos" type="file" name="Archivos" onchange="cargador.leerArchivos();" multiple="">
+        </p>
         <p>Archivos seleccionados: <span id="numero">3</span></p>
         <p>Tamaño total: <span id="tamaño">12011 bytes</span></p>
     </article>
