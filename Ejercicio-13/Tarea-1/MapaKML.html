@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Alberto Díez Bajo" />
+        <meta name="copyright" content="Alberto Díez Bajo"/>
+        <meta name="description" content="Página web en la que puedes cargar un fichero .KML y ver tus rutas!"/>
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <title>Geolocalizacion</title>
+        <link rel = "stylesheet" type = "text/css" href = "MapaKML.css"/>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU"></script>
+    </head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Geolocalización</h1>
+    </header>
+    <article id = "ubicacion">
+        <h2>
+            Aquí podras encontrar un mapa dinámico en el que podrás ver las rutas guardadas en el archivo que suba!
+        </h2>
+        <div>
+            <p>API File: Selecionar varios archivos de la máquina cliente</p>
+            <p><input id="subirArchivos" type="file" name="Archivos" onchange="mapa.enseñarRutas();" multiple></p>
+        </div>
+        <div id="mapa"></div>
+    </article>
+	<footer lang = "es">
+        <a href="http://validator.w3.org/check/referer">
+            <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+    </footer>
+    <script src="MapaKML.js"></script>
+</body>
+</html>

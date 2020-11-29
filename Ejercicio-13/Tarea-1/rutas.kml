@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+	<Placemark>
+	<name>rutas.xml</name>
+	<LineString>
+	<extrude>1</extrude>
+	<tessellate>1</tessellate>
+	<coordinates>
+-5.59093644,43.54710087,50
+-5.60209203,43.54789222,0
+-5.61061159,43.55053509,3
+-5.6194746,43.5567247,40
+-5.618994,43.5539325,86
+	</coordinates>
+	<altitudeMode>relativeToGround</altitudeMode>
+	</LineString>
+	<Style> id = 'lineaRoja'>
+	<LineStyle>
+	<color>#ff0000ff</color>
+	<width>5</width>
+	</LineStyle>
+	</Style>
+	</Placemark>
+	<Placemark>
+	<name>rutas.xml</name>
+	<LineString>
+	<extrude>1</extrude>
+	<tessellate>1</tessellate>
+	<coordinates>
+-4.83034506,43.26217284,826
+-4.8370676,43.253866,256
+-4.8947848,43.2272241,439
+-4.8965644,43.2247435,419
+-4.90566483,43.2129742,480
+	</coordinates>
+	<altitudeMode>relativeToGround</altitudeMode>
+	</LineString>
+	<Style> id = 'lineaRoja'>
+	<LineStyle>
+	<color>#ff0000ff</color>
+	<width>5</width>
+	</LineStyle>
+	</Style>
+	</Placemark>
+	<Placemark>
+	<name>rutas.xml</name>
+	<LineString>
+	<extrude>1</extrude>
+	<tessellate>1</tessellate>
+	<coordinates>
+-5.98251359,43.29174741,160
+-6.00147405,43.27271805,170
+-6.0038909,43.2630888,180
+-6.0362723,43.2174106,289
+-6.0572075,43.1233731,735
+	</coordinates>
+	<altitudeMode>relativeToGround</altitudeMode>
+	</LineString>
+	<Style> id = 'lineaRoja'>
+	<LineStyle>
+	<color>#ff0000ff</color>
+	<width>5</width>
+	</LineStyle>
+	</Style>
+	</Placemark>
+	</Document>
+</kml>
