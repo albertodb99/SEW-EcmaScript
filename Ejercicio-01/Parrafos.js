@@ -22,3 +22,4 @@ document.write("</p>");
 document.write("<p> Email del Alumno:");
 document.write(asignatura.emailAlumno);
 document.write("</p>");
+document.write("</article>");
