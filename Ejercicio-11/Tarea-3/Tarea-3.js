@@ -79,7 +79,7 @@ class MapaEstaticoGoogle {
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML += "<img src='"+this.imagenMapa+"'/>";
+        ubicacion.innerHTML += "<img src='"+this.imagenMapa+"' alt = \"mapa estatico de la página\"/>";
     }
 }
 var miPosicion = new MapaEstaticoGoogle();
