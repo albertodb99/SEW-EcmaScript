@@ -33,7 +33,32 @@ article {
 width: 80%;
 margin: auto;
 overflow:hidden;
-padding-top: 200px;
+padding-top: 20px;
+}
+
+div[class = "traduccion"]{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(31, 28, 28, 0.911); /* light background with opacity 50% */
+  color: #EEE;
+  border-radius: 5px;
+  font-size: 15px; 
+  cursor: pointer;
+}
+
+textarea{
+  resize : none;
+  height: 20em;
+  width: 30em;
+}
+
+button{
+  width: 30em;
+}
+
+select{
+  width: 30em;
 }
 
 
