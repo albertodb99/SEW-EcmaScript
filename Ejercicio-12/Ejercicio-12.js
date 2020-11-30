@@ -15,12 +15,12 @@ class CargaFicheros {
         content += "<p>Nombre del fichero: " + fichero.name + "</p>";
         content += "<p>Tamaño del fichero: " + fichero.size + "</p>";
         content += "<p>Tipo del fichero: " + fichero.type + "</p>";
-        content += "<p>Contenido: </p></article>";
+        content += "</article>";
 
         $("footer").before(content);
         var fr = new FileReader();
         fr.onload=function(event){ 
-            document.getElementById(fichero.name).innerHTML += "<textarea disabled> \"" + fr.result + " \"</textarea>";
+            document.getElementById(fichero.name).innerHTML += "<label for= \"" + fichero.name +"\">Contenido: </label><textarea disabled id= \"" + fichero.name +"\"> \"" + fr.result + " \"</textarea>";
         } 
         fr.readAsText(fichero);
       }
