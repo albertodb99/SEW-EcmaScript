@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Alberto Díez Bajo" />
+        <meta name="copyright" content="Alberto Díez Bajo"/>
+        <meta name="description" content="Aquí podrás añadirle formas a tus imágenes"/>
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <title>Modifica imágenes</title>
+        <link rel = "stylesheet" type = "text/css" href = "Ejercicio14.css"/>
+    </head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Modifica tus imágenes</h1>
+    </header>
+    <article>
+        <h2>
+            Aquí podrás modificar tus imágenes
+        </h2>
+        <p>
+            En esta página, tienes acceso a un lienzo al cual le puedes añadir una imágen, añadirle formas, texto, 
+            e incluso visualizar el contenido a pantalla completa!
+        </p>
+        <p>
+            <label for = "subirArchivos">
+                Selecciona los archivos que quieres subir:
+             </label>
+            <input id="subirArchivos" type="file" name="Archivos" onchange="loader.cargarArchivo();">
+        </p>
+        <p><button onclick="loader.pantallaCompleta()">Ver el lienzo a pantalla completa</button></p>
+        <p><button onclick="loader.añadirCorazon()">Añade un corazón al lienzo</button></p>
+        <p><button onclick="loader.añadirEstrella()">Añade una estrella al lienzo</button></p>
+        <p>
+            <label for="textoAAñadir">
+                Añadele un texto a tu imágen!
+            </label>
+            <input type="text" id="textoAAñadir" value = "">
+            <button onclick="loader.añadeTexto()">Añadir</button>
+        </p>
+        <h3>Lienzo:</h3>
+        <canvas id="canvas" width="600" height="500">
+        </canvas>
+    </article>
+	<footer lang = "es">
+        <a href="http://validator.w3.org/check/referer">
+            <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+    </footer>
+    <script src="Ejercicio14.js"></script>
+</body>
+</html>

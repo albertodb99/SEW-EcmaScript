@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Alberto Díez Bajo" />
+        <meta name="copyright" content="Alberto Díez Bajo"/>
+        <meta name="description" content="Página web de traducción de contenido"/>
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <title>Traduccion de contenido</title>
+        <link rel = "stylesheet" type = "text/css" href = "Ejercicio10.css"/>
+    </head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Traduccion de contenido</h1>
+    </header>
+    <article>
+        <h2>
+            Aquí podrás traducir tu contenido!
+        </h2>
+        <p>
+            Aquí podrás traducir lo que desees del español a uno de los idiomas disponibles de la lista!
+        </p>
+        <div class = "traduccion">
+        <label for="idiomas">Escoge un idioma:</label>
+
+        <select name="idiomas" id="idiomas">
+        <option value="en">Inglés</option>
+        <option value="it">Italiano</option>
+        <option value="fr">Francés</option>
+        </select>
+        <label for = "aTraducir" lang = "es">
+            Escribe aquí el texto que quieres traducir:
+         </label>
+        <textarea id = "aTraducir">
+
+        </textarea>
+        <label for = "traducido" lang = "es">
+            Texto traducido:
+         </label>
+        <textarea id = "traducido" disabled>
+
+        </textarea>
+        <label lang = "es">
+            Click aquí para traducir!
+         </label>
+        <button onclick = "traductor.traducir()" id = "btnTraducir">Toca aquí para traducir</button>
+        </div>
+    </article>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio10.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Alberto Díez Bajo" />
+        <meta name="copyright" content="Alberto Díez Bajo"/>
+        <meta name="description" content="Galería sobre la película Blade Runner, con fotos del cartel, ambientacion, etc."/>
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <title>Blade Runner: Galería</title>
+        <link rel = "stylesheet" type = "text/css" href = "Ejercicio07.css"/>
+    </head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Blade Runner</h1>
+    </header>
+    <article>
+            <h2 id = "h2cambiar">Galería</h2>
+            <h3>Descubre nuestra galería!</h3>
+            <h4>Estas son nuestras imágenes</h4>
+            <div class = "contenedor-botones">
+                <button onclick="manejador.ocultarLista()">Ocultar Lista</button>
+                <button onclick="manejador.mostrarLista()">Mostrar Lista</button>
+                <button onclick="manejador.eliminarEncabezadosInnecesarios()">Eliminar Encabezados Innecesarios</button>
+                <button onclick="manejador.añadirEnlacesDeInteres()">Añadir enlaces de interés</button>
+                <label for = "cambiaH2">
+                    Modifica el H2
+                </label>
+                <input type = "text" id = "cambiaH2"/>
+                <button onclick="manejador.cambiaEncabezado2()">Modificar</button>
+                <button onclick="manejador.sumarFilasYColumnas()">Sumar Filas y Columnas</button>
+                <button onclick="manejador.mostrarRecorrido()">Mostrar Recorrido</button>
+            </div>
+            <p>
+                En esta pestaña, podéis encontrar algunos cómics que se desarrollaron en base a la película.
+                Lamentablemente, todavía no disponemos de información de cómics de esta película, ya sea porque no los 
+                hay, o porque no tenemos conocimiento sobre ellos :( <br>
+                A cambio, os dejamos un álbum de fotos de la película, y un sonido triste.
+            </p>
+            <div>
+                <ul>
+                    <li>
+                        <img src = "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/09/17/15687194713882.jpg" alt = "Cartel de la película">
+                    </li>
+                    <li>
+                        <img src = "https://2.bp.blogspot.com/-G0wHiaKeM-E/WdhRoWliGvI/AAAAAAAACrk/RRPoFRpjeaAACHJSb4EGtm5kilnd8NiHwCLcBGAs/s1600/Bladerunner4.jpg" alt = "Otro cartel de la película">
+                    </li>
+                    <li>
+                        <img src = "https://i.blogs.es/b907d3/harrison-ford-blade-runner/1366_2000.jpg" alt = "Harrison apoyado en una pared">
+                    </li>
+                    <li>
+                        <img src = "https://filasiete.com/wp-content/uploads/2008/02/bladerunner.jpg" alt = "Harrison con el ejército detrás">
+                    </li>
+                    <li>
+                        <img src = "https://1.bp.blogspot.com/-HIJMWFPEvZM/T36aDRTaTrI/AAAAAAAAIHc/Fn9oGwSXUbQ/s1600/entre+la+multitud.jpg" alt = "Viandantes de la época">
+                    </li>
+                    <li>
+                        <img src = "https://www.muycomputer.com/wp-content/uploads/2019/11/BladeRunner-1000x600.jpg" alt = "Ambientación de la película">
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+    </article>
+    <article>
+        <h2>Juegos</h2>
+        <div class = "tabla">
+            <table id = "tabla">
+                <thead>
+                    <tr>
+                        <th><strong>Año</strong></th>
+                        <th><strong>Titulo</strong></th>
+                        <th><strong>Género</strong></th>
+                        <th><strong>Desarrollador(es)</strong></th>
+                        <th><strong>Plataforma(s)</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1985</td>
+                        <td>Blade Runner</td>
+                        <td>Shoot 'em up</td>
+                        <td>Andy Stodart, Ian Foster e Ian Ellery</td>
+                        <td>Commodore 64, ZX Spectrum y Amstrad CPC198​</td>
+                    </tr>
+                    <tr>
+                        <td>1997</td>
+                        <td>Blade Runner</td>
+                        <td>Aventura Gráfica</td>
+                        <td>Westwood Studios</td>
+                        <td>Microsoft Windows 1999</td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Blade Runner 9732 (no oficial)</td>
+                        <td>Realidad virtual</td>
+                        <td>Quentin Lengele</td>
+                        <td>HTC Vive​</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Blade Runner: Revelations</td>
+                        <td>Realidad virtual</td>
+                        <td>Seismic Games y Alcon Media Group</td>
+                        <td>Google Daydream​</td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+    </article>
+	<footer lang = "es">
+        <a href="http://validator.w3.org/check/referer">
+            <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio07.js"></script>
+</body>
+</html>
