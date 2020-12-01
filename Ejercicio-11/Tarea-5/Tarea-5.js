@@ -17,6 +17,11 @@ function initMap(){
             };
 
             infoWindow.setPosition(pos);
+            var marker = new google.maps.Marker({
+              position: pos,
+              title: 'Localizacion encontrada',
+              map: mapaGeoposicionado
+            });
             infoWindow.setContent('Localizacion encontrada');
             infoWindow.open(mapaGeoposicionado);
             mapaGeoposicionado.setCenter(pos);
